@@ -139,6 +139,7 @@ ol.steps { margin: 4px 0 8px; padding-left: 21px; }
 ol.steps li { margin: 4px 0; font-size: 13px; }
 ol.steps .src-tag { font-size: 10.5px; color: #0f5a4e; background: #e8f3ee; border-radius: 4px; padding: 0 5px; white-space: nowrap; }
 .sources-block { background: var(--paper-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; font-size: 12px; }
+.panel-sources { margin: 8px 0; }
 .sources-block .sources-label { font-size: 10.5px; letter-spacing: 1.2px; font-weight: 800; color: #57492e; }
 .spoiler-mask { color: #9a8f78; font-style: italic; }
 /* ---------- rail ---------- */

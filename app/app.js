@@ -141,8 +141,10 @@ function renderPanel() {
     html += '<div class="dispute-box"><strong>⚖ SOURCES DIFFER — IS IT MISSABLE?</strong>' +
       '<p><strong>A · </strong>' + esc(t.dispute.a) + '</p>' +
       '<p><strong>B · </strong>' + esc(t.dispute.b) + '</p>' +
+      (t.dispute.check ? '<p>' + esc(t.dispute.check) + '</p>' : '') +
       '<p><strong>Our call: </strong>' + esc(t.dispute.call) + '</p></div>';
   }
+  html += '<div class="sources-block panel-sources"><span class="sources-label">NUMBERED SOURCES · </span>[1] PowerPyx — Meditation Spot Locations · [2] PowerPyx — Trophy Guide &amp; Roadmap · [3] OutputLag — Strangers &amp; Freaks List · [4] GameTrek — Meditation Spot Locations <span class="sources-label">· FULL LIST ON THE SOURCES VIEW</span></div>';
   if (t.count) {
     const v = countOf(t);
     html += '<div class="count-box"><span class="count-label">YOUR COUNT</span>' +
