@@ -464,6 +464,7 @@
    "dispute": {
     "a": "GameTrek: the balcony session IS one of the 18 and is effectively required — accept it immediately, in Chapter 1.",
     "b": "PowerPyx: unconfirmed. The balcony raises the counter by 1 but is not marked a Meditation Spot, and the final meditation may count +2 — so skipping it might still reach 18/18. Untested either way.",
+    "check": "Roadmap check — PowerPyx’s Trophy Guide & Roadmap counts this as the game’s potentially 1 missable trophy [2].",
     "call": "Same move either way: accept the balcony meditation in Chapter 1. It costs a minute and removes the only real risk on this list."
    },
    "stage": 4,
@@ -471,7 +472,7 @@
    "countStep": 1,
    "guide": "Meditate at every spot across Leonida — 18 meditations, but only 10 locations. Most spots count once per character: meditate at the same spot as Jason and again as Lucia and each session adds +1, which is how 10 places make 18. Both characters are playable from Chapter 2’s “Coffee Break” on. The 100% checklist needs only 15 of the 18; this trophy needs all 18 — including one Chapter 1 session that can never be repeated, which is why this is the list’s one possibly missable trophy. [1] [4]",
    "steps": [
-    "Chapter 1, the morning after “Down to Earth”: Lucia announces a meditation in Jason’s kitchen and walks to the balcony. Follow her, talk, and Accept — +1, and she teaches the breathing meditation. It is gone for good once Chapter 1 ends. [1] [4]",
+    "Chapter 1, the morning after “Down to Earth”: Lucia announces a meditation in Jason’s kitchen and walks to the balcony. Follow her, talk, and Accept — +1, and she teaches the breathing meditation. It is gone for good once Chapter 1 ends. [1] [2] [4]",
     "Track the hunt under Progress > Collections > Exploration > Meditations, and filter the map by Exploration > “Meditate Around Leonida” — unvisited spots show as purple icons when you are near one. [1]",
     "Work the eight open-world spots with BOTH characters (8 × 2 = 16): Smooth Sand, the sandbar west of Capri (Mariana County); the Swamp dock by the lookout tower in Buckskin Swamp and Worn Stone on the Emerald River bank at Camp Moonflower (Kelly County); Red Rocks, where the train tracks cross the highway in Manifest Canyon (Kelly County); the Water Wheel at the ruined paper mill on a river south of Moreau, the Jutting Cliff tower overlooking a mine in Mount Kalaga National Park, and the Waterfall north-west of Tallaloko (Lummox County); and Seaside, the rocky outcrop east of Waning Sands (Leonard County). [1] [4]",
     "Finish at Ascent Mountain: the stone circle at Mount Kalaga’s peak is marked on the map only once all the others are done — that single meditation is the 18th. [4]",
