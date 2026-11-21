@@ -1,0 +1,931 @@
+{
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "the official 55 trophies, 2026-11-18",
+ "trophies": [
+  {
+   "id": 1,
+   "name": "Vice Got a Price!",
+   "description": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "kind": "completion",
+   "missable": false,
+   "stage": 6,
+   "guide": "The platinum is the list itself: it unlocks the moment the other 54 trophies are all earned, so there is nothing separate to hunt. Use the roadmap order in this guide — story first with the strand finales banked, then collectibles, activities and cleanup — and the platinum is simply the last checkbox.",
+   "steps": [
+    "Earn the other 54 trophies; this one follows automatically. [Official description]",
+    "Work the roadmap stages in order so nothing is left stranded. [Roadmap — from the official descriptions]",
+    "Cross-check your 54 against the official list before the final push. [Exophase list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 2,
+   "name": "Just Like Paradise",
+   "description": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "The opening mission, Gone Fishing, is where the game teaches you its basics, and this trophy pops for finishing it. Play it straight through — there is no fail state that can lock you out — and take the chance to learn the partner and cover mechanics the later stages lean on.",
+   "steps": [
+    "Start the story and play the opening mission, Gone Fishing. [Official description]",
+    "Finish it; the trophy is awarded for completion, not performance. [Official description]",
+    "It is the first entry of roadmap Stage 1. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 3,
+   "name": "Paradise Lost",
+   "description": "Complete Chapter 1.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Awarded for completing Chapter 1 of the story. Chapters cannot be skipped or failed permanently, so this is pure progression: follow the story markers, and bank the strand and collectible work this guide schedules inside Chapter 1 before you move on.",
+   "steps": [
+    "Play the story through to the end of Chapter 1. [Official description]",
+    "Completion is automatic; no medal or rank is required. [Official description]",
+    "Sits in roadmap Stage 1, right after the opening mission. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 4,
+   "name": "T**s Ass Drug Money",
+   "description": "Complete Chapter 2.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Awarded for completing Chapter 2. As with every chapter trophy here, it cannot be missed while you keep playing the story — the only planning point is to finish the Chapter 2 strand finales flagged in this guide before the chapter closes.",
+   "steps": [
+    "Play the story through to the end of Chapter 2. [Official description]",
+    "The name is printed exactly as PlayStation publishes it, asterisks included. [PSNProfiles list]",
+    "Bank the Stage 1 strand work before the chapter ends. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 5,
+   "name": "Vice City, Baby!",
+   "description": "Complete Chapter 3.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing Chapter 3. Pure story progression — keep following the campaign and it unlocks on the chapter’s final cutscene. This guide’s roadmap opens the Chapter 3 crew finales in Stage 2, so clear those strands while the chapter is live.",
+   "steps": [
+    "Play the story through to the end of Chapter 3. [Official description]",
+    "No performance condition is attached to the chapter itself. [Official description]",
+    "Opens roadmap Stage 2. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 6,
+   "name": "Top Of The World, Ma",
+   "description": "Complete Chapter 4.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing Chapter 4, the last full chapter before the endgame. It is unmissable story progression; the roadmap simply asks you to have the stranger strands and crew finales done before you start the final mission that follows it.",
+   "steps": [
+    "Play the story through to the end of Chapter 4. [Official description]",
+    "Completion only — nothing in the description adds a condition. [Official description]",
+    "Last chapter trophy before the Stage 3 finale. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 7,
+   "name": "You Gotta Know When to Get Off",
+   "description": "Complete the final mission.",
+   "grade": "gold",
+   "kind": "story",
+   "missable": false,
+   "stage": 3,
+   "guide": "The gold for completing the final mission. It cannot be missed if you finish the campaign, but it is the point of no return for everything else: this guide flags the strand finales as missable precisely because they must be banked before you start this mission.",
+   "steps": [
+    "Finish every flagged strand finale before starting the final mission. [Roadmap — from the official descriptions]",
+    "Complete the final mission. [Official description]",
+    "It is one of only two golds on the official list. [Exophase list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 8,
+   "name": "Trust",
+   "description": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "guide": "Awarded for completing the named story mission Breakfast Run. Named-mission trophies like this one are progression, not skill checks: the mission sits in the early story, and finishing it by any approach unlocks the trophy.",
+   "steps": [
+    "Reach the story mission Breakfast Run in Stage 1. [Roadmap — from the official descriptions]",
+    "Complete Breakfast Run. [Official description]",
+    "Any approach counts; the description sets no extra condition. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 9,
+   "name": "Break the Bank",
+   "description": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing The Cartel Heist, a named story mission. Heists usually let you prepare, so take the prep steps the mission offers before starting the score itself; the trophy only asks for completion.",
+   "steps": [
+    "Reach the story mission The Cartel Heist in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete The Cartel Heist. [Official description]",
+    "Do the mission’s own prep first — the trophy needs completion, not a clean run. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 10,
+   "name": "Family Matters",
+   "description": "Complete Child's Play.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing Child’s Play, a named story mission. Play it as the campaign presents it; there is no side condition in the official description, so finishing the mission is the whole requirement.",
+   "steps": [
+    "Reach the story mission Child’s Play in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete Child’s Play. [Official description]",
+    "Completion is the only condition the list states. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 11,
+   "name": "DWNFALL",
+   "description": "Complete Headliners.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing Headliners, a named story mission. As with the other mission trophies, it is earned by seeing the mission through; this guide places it in Stage 2 alongside the Chapter 3–4 story block.",
+   "steps": [
+    "Reach the story mission Headliners in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete Headliners. [Official description]",
+    "No extra condition is stated in the official description. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 12,
+   "name": "Hi-Jacked",
+   "description": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing VCIA Takedown, a named story mission built around the airport authority. Finish the mission as scripted; a separate trophy (Catch Me If You Can) covers leaving VCIA in an unscheduled way, so do not confuse the two.",
+   "steps": [
+    "Reach the story mission VCIA Takedown in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete VCIA Takedown. [Official description]",
+    "Keep it separate from the unscheduled-departure trophy at the same location. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 13,
+   "name": "Snow Storm",
+   "description": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "guide": "Awarded for completing Operation Savage Glory, a named story mission. It is a progression trophy: play the operation to its end and the trophy follows, with no medal or stealth condition in the description.",
+   "steps": [
+    "Reach the story mission Operation Savage Glory in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete Operation Savage Glory. [Official description]",
+    "Completion is the only stated condition. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 14,
+   "name": "A Long Road",
+   "description": "Attain 100% Completion.",
+   "grade": "gold",
+   "kind": "completion",
+   "missable": false,
+   "stage": 3,
+   "guide": "The second gold: attain 100% completion. This is the list’s long tail — the game’s completion counter only reaches 100 when the story, strands, collectibles and activities the counter tracks are all done. Work it last, off the tracker: every other checkbox in this guide feeds it, and the counter in the game tells you what is left.",
+   "steps": [
+    "Finish the story, including the final mission. [Official description]",
+    "Clear the collectibles, strands and activities the completion counter tracks. [Roadmap — from the official descriptions]",
+    "Chase the in-game completion counter to 100%; the trophy follows it. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 15,
+   "name": "Cunning Stunts",
+   "description": "Complete 250 Stunts.",
+   "grade": "silver",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 250,
+   "countStep": 10,
+   "guide": "Complete 250 stunts — the silver asks for volume, not perfection. Stunt opportunities are scattered through Leonida, so the efficient route is to tag them as you travel rather than farm one spot: use the count tracker here, bank stunts during every roadmap stage, and the total arrives well before the cleanup stage if you start early.",
+   "steps": [
+    "Attempt stunts whenever the world offers one, from Stage 1 onward. [Roadmap — from the official descriptions]",
+    "Bank 250 completed stunts in total. [Official description]",
+    "Track the running total with the counter on this page. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 16,
+   "name": "Master of None",
+   "description": "Try each type of activity once.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 9,
+   "countStep": 1,
+   "guide": "Try each type of activity once — the official count is 9 activity types. This is a sampler trophy: the moment a new activity type unlocks on the map, play one round of it and tick it off, instead of leaving all nine to the end. The tracker’s counter matches the 9 types the list counts.",
+   "steps": [
+    "Play one session of each new activity type as it unlocks. [Roadmap — from the official descriptions]",
+    "Reach all 9 activity types at least once. [Official description]",
+    "Trying counts — no win or medal is required. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 17,
+   "name": "The Shootist",
+   "description": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 42,
+   "countStep": 1,
+   "guide": "Earn a gold medal in all Shooting Range challenges — 42 of them, and the list’s most skill-heavy silver. Learn one range’s targets at bronze pace first, then chase gold once the weapon handling is familiar; medals are kept per challenge, so progress is never lost. Leave this to Stage 5 when your arsenal and skills are fully upgraded.",
+   "steps": [
+    "Unlock the Shooting Range challenges and learn each layout. [Roadmap — from the official descriptions]",
+    "Earn gold in all 42 challenges; medals bank per challenge. [Official description]",
+    "The count of 42 is the one PlayStation tracks. [Exophase list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 18,
+   "name": "Top Fun",
+   "description": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 14,
+   "countStep": 1,
+   "guide": "Win a Top Fun Drone Race at every location — 14 locations, and second place does not count. Learn each course with a practice run first: the win only needs to happen once per location, so bank them one at a time and mark them off in the tracker as you go.",
+   "steps": [
+    "Find each Top Fun Drone Race location as the map opens. [Roadmap — from the official descriptions]",
+    "Win the race at all 14 locations, once each. [Official description]",
+    "Practice runs do not hurt — only the win is recorded. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 19,
+   "name": "Earn Cash, Not Kudos",
+   "description": "Win 20 different races.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 20,
+   "countStep": 1,
+   "guide": "Win 20 different races — the word “different” is the whole trophy: repeating one easy race twenty times does nothing. Move around the race calendar, take the win at each new event, and let the tracker count distinct victories only.",
+   "steps": [
+    "Enter races across different events, not the same one twice. [Official description]",
+    "Win 20 different races. [Official description]",
+    "Tick each distinct win in the counter as you bank it. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 20,
+   "name": "Baited My Tackle",
+   "description": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Beat Cal in a fishing challenge. Cal is the benchmark the description names, so treat it as a head-to-head: learn the fishing mechanics on ordinary catches first, then take the challenge when the timing is familiar. It sits in Stage 5 with the other one-off activity tests.",
+   "steps": [
+    "Learn fishing on ordinary catches before the challenge. [Roadmap — from the official descriptions]",
+    "Take Cal’s fishing challenge and beat him. [Official description]",
+    "The description names the opponent — one win is enough. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 21,
+   "name": "Stick Fiddler",
+   "description": "Complete an arcade game.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Complete an arcade game — one full game, start to finish. Pick the cabinet that suits you and play it through; quitting mid-game does not count, but any arcade title does, so this is one of the quickest boxes on the list once you find a machine.",
+   "steps": [
+    "Find an arcade game in the world. [Roadmap — from the official descriptions]",
+    "Play one arcade game to completion. [Official description]",
+    "Any title counts; finishing is the condition. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 22,
+   "name": "Road to Rehabilitation",
+   "description": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Strand finale: if Andy’s strand is still open when the story ends, there may be no way back to it. Finish Andy’s strand before starting the final mission.",
+   "stage": 2,
+   "guide": "Complete the final mission for Andy — the last step of his strand. This guide flags every strand finale as missable, read from the description’s “final mission” wording: strands belong to the living world, and the safe play is to close Andy’s arc during Stage 2, well before the endgame closes the map’s story down.",
+   "steps": [
+    "Work Andy’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete the final mission for Andy before the endgame. [Official description]",
+    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 23,
+   "name": "This Was No Boat Accident",
+   "description": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Strand finale: Kenton’s arc can close with story progress. Finish Kenton’s strand before starting the final mission.",
+   "stage": 2,
+   "guide": "Complete the final mission for Kenton. Same rule as every strand finale in this guide: the description’s “final mission for Kenton” marks the end of an optional arc, so it is flagged missable and scheduled in Stage 2 rather than left to post-story cleanup, when the strand may no longer be offered.",
+   "steps": [
+    "Work Kenton’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete the final mission for Kenton before the endgame. [Official description]",
+    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 24,
+   "name": "The Lone Rider",
+   "description": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Strand finale: Billy’s arc can close with story progress. Finish Billy’s strand before starting the final mission.",
+   "stage": 2,
+   "guide": "Complete the final mission for Billy. The trophy is the closing step of Billy’s strand, which is why this guide treats it as missable: optional arcs are worked while the story is still open. Bank it in Stage 2 and the endgame holds no surprises.",
+   "steps": [
+    "Work Billy’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete the final mission for Billy before the endgame. [Official description]",
+    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 25,
+   "name": "Strangers & Freaks",
+   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Eight stranger strands across Leonida: strands belong to the open world’s story, so complete all 8 before the final mission rather than after it.",
+   "stage": 2,
+   "count": 8,
+   "countStep": 1,
+   "guide": "Complete 8 mission strands for strangers across the state of Leonida — a silver built from the same optional arcs as the named finales. Because strands are offered by the living world, this guide flags it missable and puts the whole set in Stage 2: accept every stranger strand you meet, finish all eight, and use the counter here to keep the set honest.",
+   "steps": [
+    "Accept stranger strands as you meet them across Leonida. [Official description]",
+    "Complete 8 full mission strands. [Official description]",
+    "Bank all 8 before the final mission; the counter tracks the set. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 26,
+   "name": "Supply & Demand",
+   "description": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Strand finale: Randy’s arc can close with story progress. Finish Randy’s strand before starting the final mission.",
+   "stage": 2,
+   "guide": "Complete the final mission for Randy. A strand finale, flagged missable from the description’s wording and scheduled in Stage 2 with the other crew arcs: finish Randy’s story while the campaign is still open and this cannot be locked away from you.",
+   "steps": [
+    "Work Randy’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete the final mission for Randy before the endgame. [Official description]",
+    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 27,
+   "name": "Spin On This!",
+   "description": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "kind": "story",
+   "missable": true,
+   "missableNote": "Strand finale: Tyrone’s arc can close with story progress. Finish Tyrone’s strand before starting the final mission.",
+   "stage": 2,
+   "guide": "Complete the final mission for Tyrone. The last of the named strand finales on the list, and the same discipline applies: it is flagged missable, worked in Stage 2, and never left for after the final mission, when the strand may have closed.",
+   "steps": [
+    "Work Tyrone’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
+    "Complete the final mission for Tyrone before the endgame. [Official description]",
+    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 28,
+   "name": "Positive Mental Attitude",
+   "description": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 18,
+   "countStep": 1,
+   "guide": "Meditate at every spot across Leonida — 18 spots, and a collectible in all but name. The spots are fixed points in the world, so treat them like a collectible route: meditate whenever you pass one, log it in the counter here, and sweep the map region by region in Stage 4 so the last spot is never a mystery.",
+   "steps": [
+    "Meditate at each spot as you discover it, region by region. [Roadmap — from the official descriptions]",
+    "Reach all 18 meditation spots across Leonida. [Official description]",
+    "The count of 18 is the one the list tracks. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 29,
+   "name": "Fair Game",
+   "description": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Hunt a unique animal for Bret — “unique” is the operative word: ordinary wildlife does not count, only the one special animal Bret’s task points you at. Take the job from Bret, follow his lead in the hunt, and the trophy is in the single successful kill or capture his strand asks for.",
+   "steps": [
+    "Take the hunting task from Bret in Stage 5. [Roadmap — from the official descriptions]",
+    "Hunt the unique animal Bret names. [Official description]",
+    "Only the unique animal counts — ordinary game does not. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 30,
+   "name": "Don't Touch My Deck",
+   "description": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 3,
+   "countStep": 1,
+   "guide": "Complete 3 Collectible Card sets — a silver for collectors. Cards come in themed sets, so work set by set instead of grabbing at random: finish the set you are closest to, use the counter to track completed sets (not loose cards), and let the Stage 4 sweep mop up the stragglers.",
+   "steps": [
+    "Collect cards set by set as you explore Leonida. [Roadmap — from the official descriptions]",
+    "Complete 3 full Collectible Card sets. [Official description]",
+    "The counter tracks sets, which is what the trophy counts. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 31,
+   "name": "You WAiNKer!",
+   "description": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 100,
+   "countStep": 5,
+   "guide": "WAiNK It at 100 locations — a silver built on a repeated world action, so the only strategy is coverage: use the action whenever a new location offers it, keep the counter running from your first hour, and the hundred arrives as a by-product of the Stage 4 world sweep rather than a grind at the end.",
+   "steps": [
+    "Use the WAiNK It action at every new location that offers it. [Official description]",
+    "Reach 100 locations in total. [Official description]",
+    "Start early; the tracker counter carries the running total. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 32,
+   "name": "One Last Thing",
+   "description": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 50,
+   "countStep": 5,
+   "guide": "Complete 50 Challenges. Challenges are the game’s short-form tests, scattered across its systems, so sample widely: whenever a challenge is offered, finish it and bank it. Fifty sounds like a grind, but spread across every roadmap stage it is simply the receipt for playing the whole game.",
+   "steps": [
+    "Attempt challenges as the game offers them, in every stage. [Roadmap — from the official descriptions]",
+    "Complete 50 Challenges in total. [Official description]",
+    "The counter here tracks completions, not attempts. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 33,
+   "name": "Hot Together",
+   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Lose a 4-star Wanted Level with your partner and escape the heat. The conditions are precise: your partner must be with you, the wanted level must reach 4 stars, and you must then lose it completely. Set it up deliberately — raise the heat together somewhere with a clean escape route, then break line of sight and stay hidden until the stars clear.",
+   "steps": [
+    "Be with your partner and raise the Wanted Level to 4 stars. [Official description]",
+    "Break away and lose the wanted level completely. [Official description]",
+    "Both conditions — partner present, 4 stars lost — must hold in one escape. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 34,
+   "name": "Retail Therapy",
+   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Rob 3 shops back-to-back with your partner without losing your Wanted Level. The chain is the trophy: three robberies in one continuous wanted run, partner at your side, never letting the heat drop. Pick three shops close together, move fast between them, and treat the third till as the finish line.",
+   "steps": [
+    "With your partner, rob a first shop and take the Wanted Level. [Official description]",
+    "Rob a second and third shop back-to-back without losing it. [Official description]",
+    "The chain breaks if the wanted level is lost — plan the route first. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 35,
+   "name": "Whip It Good",
+   "description": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 100,
+   "countStep": 5,
+   "guide": "Discover 100 vehicles. Discovery is generous — a vehicle counts when you encounter it — so variety is the method: drive something different whenever the chance appears, visit every district’s traffic, and let the counter climb through normal play. Stage 4’s sweep exists to catch the rare models the story never puts in front of you.",
+   "steps": [
+    "Drive or encounter new vehicles whenever you can. [Roadmap — from the official descriptions]",
+    "Discover 100 distinct vehicles. [Official description]",
+    "The tracker counter matches the list’s count of 100. [Exophase list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 36,
+   "name": "Gunslinger",
+   "description": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Take down 5 enemies in a single use of Combat Focus. One activation, five takedowns — so set the stage before you trigger it: gather a group of five or more enemies in range, then spend the Focus and work through them without wasting shots. If an attempt falls short, nothing is lost; regroup and try the next crowd.",
+   "steps": [
+    "Gather five or more enemies within reach. [Roadmap — from the official descriptions]",
+    "Activate Combat Focus once and take down 5 enemies inside it. [Official description]",
+    "All five must fall in a single use — that is the whole test. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 37,
+   "name": "Catch Me If You Can",
+   "description": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Make an unscheduled departure at VCIA — the airport. The description is playful but the ask is concrete: leave VCIA in a way the airport did not schedule, which in practice means taking a plane out on your own terms rather than through any scripted flight. Do it in free roam, away from the VCIA Takedown mission, so the two airport trophies stay separate.",
+   "steps": [
+    "Go to VCIA in free roam. [Official description]",
+    "Make an unscheduled departure from the airport. [Official description]",
+    "Kept separate from the VCIA Takedown mission trophy on purpose. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 38,
+   "name": "Challenging Tank",
+   "description": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "The description — “Kinda hot in these Rhinos” — is the list’s joke entry for dealing with Rhinos, the tanks. When the military hardware rolls out at high heat, engage the Rhino rather than fleeing it: survive the encounter the way the game frames it, and expect this to be a late-game, high-wanted-level moment rather than an early one.",
+   "steps": [
+    "Raise the stakes until Rhinos (tanks) are deployed. [Official description]",
+    "Deal with the Rhino when it comes for you. [Official description]",
+    "The official description is a joke about Rhinos; the encounter is the trophy. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 39,
+   "name": "Sneakthief",
+   "description": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Rob a jewelry store without being detected. Stealth is the whole condition: if you are detected, the attempt is spent, so scout the store first, plan the quiet way in and out, and take only what you can carry silently. A failed, loud attempt costs nothing but time — reset and go again.",
+   "steps": [
+    "Scout a jewelry store and plan a silent entry. [Roadmap — from the official descriptions]",
+    "Rob it without being detected. [Official description]",
+    "Detection voids the attempt, not the trophy — retry clean. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 40,
+   "name": "Maximum Withdrawal",
+   "description": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 5,
+   "countStep": 1,
+   "guide": "Rob 5 Bank Vaults and escape — a silver, and the escape is part of every single one: a vault emptied but a bust at the door counts for nothing. Treat each vault as a two-part job, entry and exit, and use the counter to track clean getaways only.",
+   "steps": [
+    "Rob a Bank Vault and escape cleanly. [Official description]",
+    "Repeat for 5 Bank Vaults in total. [Official description]",
+    "Only vaults you escape from count toward the five. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 41,
+   "name": "A Classic Blitz Play",
+   "description": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Rob an Armored Truck and escape. One truck, one clean getaway: stop the truck, take what it carries, and be gone before the response arrives. It is the single-score version of the bank-vault silver, and a good rehearsal for it.",
+   "steps": [
+    "Find and stop an Armored Truck. [Official description]",
+    "Rob it and escape. [Official description]",
+    "One successful truck is the whole requirement. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 42,
+   "name": "The Goodtime State",
+   "description": "Explore all of Leonida.",
+   "grade": "bronze",
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 4,
+   "count": 52,
+   "countStep": 2,
+   "guide": "Explore all of Leonida — 52 areas to uncover. Exploration trophies reward the map, not the missions: cross every district line, take the long way whenever the story lets you, and use the counter to see the map fill in. Anything left at the end is a Stage 4 road trip, area by area.",
+   "steps": [
+    "Travel every district as the map opens up. [Roadmap — from the official descriptions]",
+    "Explore all 52 areas of Leonida. [Official description]",
+    "The count of 52 is the one the list tracks. [Exophase list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 43,
+   "name": "Pest Control",
+   "description": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "count": 9,
+   "countStep": 1,
+   "guide": "Rob an Illegal Operation belonging to each gang — 9 gangs, one operation each. This is a set-completion trophy disguised as a crime spree: variety matters, not volume, so keep the counter honest and move to a new gang’s turf after each score rather than hitting the same operation twice.",
+   "steps": [
+    "Rob an Illegal Operation of one gang. [Official description]",
+    "Cover each of the 9 gangs once. [Official description]",
+    "Repeats of the same gang do not advance the set. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 44,
+   "name": "In The Beginning…",
+   "description": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Enjoy a cocktail with a view on Ocean Beach. The description names the place and the moment, and both are citable from it: go to Ocean Beach, take the cocktail, and take in the view. It is a one-off postcard trophy — the sort Stage 6 cleanup exists for, two minutes of calm in a list full of robberies.",
+   "steps": [
+    "Go to Ocean Beach. [Official description]",
+    "Enjoy a cocktail with a view there. [Official description]",
+    "Place and action both come straight from the official description. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 45,
+   "name": "Capital Offense",
+   "description": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Smash your way out of a vehicle showroom in classic style. A set-piece one-off: get into a vehicle inside a showroom and leave through the glass rather than the door. The description’s “classic style” is flavour — the act itself, driving out through the showroom front, is the trophy.",
+   "steps": [
+    "Get into a vehicle inside a showroom. [Official description]",
+    "Smash your way out of the showroom in it. [Official description]",
+    "Out through the glass is the point of the description. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 46,
+   "name": "Let’s Go Bowling",
+   "description": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Follow-through at the Kolt & Associates’ bowling alley. The description names the alley, which makes this the rare one-off you can navigate straight to: go to the Kolt & Associates bowling alley and bowl — “follow-through” is the game’s joke about actually playing the frame out.",
+   "steps": [
+    "Go to the Kolt & Associates bowling alley. [Official description]",
+    "Bowl there — follow through on the game. [Official description]",
+    "The alley is named in the official description itself. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 47,
+   "name": "Personal Best",
+   "description": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "The description — “A partnership with mass appeal” — is one of the list’s deliberately vague entries, and this guide will not invent a location it cannot cite. What the words support: it is a partner moment, earned with your other character rather than alone, so keep both protagonists’ shared activities in your Stage 6 sweep and it resolves as the partnership content is played.",
+   "steps": [
+    "Play the partner content with both protagonists. [Official description]",
+    "The trophy follows the partnership moment the description points at. [Official description]",
+    "No location is claimed — the official description names none. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 48,
+   "name": "Actions Speak Louder",
+   "description": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "count": 500,
+   "countStep": 25,
+   "guide": "Choices made (for better or worse) — and PlayStation tracks a count of 500 choices, which makes this a long-tail accumulation trophy rather than a single decision. Every choice the game records moves the counter, so it fills naturally across a full playthrough; if it lags, it belongs to the Stage 6 sweep, where replayable choice points are worked deliberately.",
+   "steps": [
+    "Make choices whenever the game offers them — they all count. [Official description]",
+    "Reach the tracked count of 500 choices. [PSNProfiles list]",
+    "A full playthrough covers most of it; sweep the rest in Stage 6. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 49,
+   "name": "Bad Luck, I Guess",
+   "description": "Second time's the charm.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "Second time’s the charm: the description describes failing once and succeeding on the retry, so do not play perfectly everywhere — when an attempt at something fails, take the second try the game offers instead of reloading it away. It is a one-off that rewards persistence at a specific retry point, and it can only be earned by letting the first try fail.",
+   "steps": [
+    "Let a first attempt fail where the game offers a retry. [Official description]",
+    "Succeed on the second try. [Official description]",
+    "Reloading past the failure skips the trophy — take the retry. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 50,
+   "name": "The Truth Is Out There",
+   "description": "What the hell just happened?",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "guide": "What the hell just happened? — the list’s strange-encounter entry. The description promises something weird rather than a task, so this guide claims no location for it: keep exploring off the story’s path in Stage 6, follow the odd things the world shows you, and the witnessed strangeness the description asks for is the trophy.",
+   "steps": [
+    "Explore off the story path and follow strange leads. [Roadmap — from the official descriptions]",
+    "Witness the strange event the description hints at. [Official description]",
+    "No location is claimed — the official description names none. [Roadmap — from the official descriptions]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 51,
+   "name": "Ten Pin",
+   "description": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "guide": "Bowl ’em over with a melee drive-by: knock someone down with a melee attack delivered from a moving vehicle. The technique is the trophy — ride or drive past a pedestrian, swing as you pass, and the knockdown has to come from the melee strike, not the vehicle itself. Practise the timing on a quiet street before traffic complicates it.",
+   "steps": [
+    "Ride or drive past a target at speed. [Roadmap — from the official descriptions]",
+    "Land a melee drive-by that knocks them down. [Official description]",
+    "The knockdown must come from the melee hit, not the impact. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 52,
+   "name": "Dime on the Dollar",
+   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "count": 250000,
+   "countStep": 5000,
+   "guide": "Earn $250,000 laundering Marked Bills through your contacts. A money total, tracked in dollars: marked bills come from scores, and your contacts turn them clean — so the loop is earn, launder, repeat, with the counter here tracking the laundered total rather than your bank balance. It belongs to Stage 6, when your scores are biggest.",
+   "steps": [
+    "Take Marked Bills from scores and jobs. [Official description]",
+    "Launder them through your contacts. [Official description]",
+    "Reach $250,000 laundered in total. [Official description]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 53,
+   "name": "Treat Yo Self",
+   "description": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "count": 100000,
+   "countStep": 5000,
+   "guide": "Spend $100,000 across all shops. The friendliest money trophy on the list: it asks only that the money flows out, across any shops you like. Buy the vehicles, clothes and gear you actually want during the story, keep the counter running, and top up in Stage 6 if the total is short.",
+   "steps": [
+    "Spend money in any shops as you play. [Official description]",
+    "Reach $100,000 spent across all shops. [Official description]",
+    "The counter tracks spend, not savings — nothing is wasted. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 54,
+   "name": "Little Boxes",
+   "description": "Purchase all garage properties.",
+   "grade": "bronze",
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 6,
+   "count": 8,
+   "countStep": 1,
+   "guide": "Purchase all garage properties — 8 garages, and the set completes your property base. Garages are bought, not found, so this is a money goal wearing a collectible’s clothes: earn through the middle stages, buy each garage as it becomes affordable, and the counter here tracks properties owned, ending at 8.",
+   "steps": [
+    "Buy garage properties as your money allows. [Official description]",
+    "Own all 8 garage properties. [Official description]",
+    "The count of 8 comes from the official list’s own data. [Exophase list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  },
+  {
+   "id": 55,
+   "name": "On the Spot",
+   "description": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "count": 10,
+   "countStep": 1,
+   "guide": "Register 10 vehicles to the Scooter Bros app. Registration is a habit, not a hunt: when you take a vehicle you intend to keep, register it in the app there and then. Ten registrations accumulate quickly once the habit forms, and the counter keeps the set straight.",
+   "steps": [
+    "Register vehicles to the Scooter Bros app as you acquire them. [Official description]",
+    "Reach 10 vehicles registered. [Official description]",
+    "The count of 10 is the one the list tracks. [PSNProfiles list]"
+   ],
+   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+  }
+ ]
+}
