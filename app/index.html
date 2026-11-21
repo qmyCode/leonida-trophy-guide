@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Platinum Log — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="topbar">
+  <div id="brand">
+    <div id="brand-mark">LP</div>
+    <div id="brand-text">
+      <h1>Leonida Platinum Log</h1>
+      <p>GTA VI · PS5 · 55 trophies · every guide in our own words, every fact cited</p>
+    </div>
+  </div>
+  <div id="progress-box">
+    <div id="progress-line"><strong id="earned-count">0 / 55 earned</strong><span id="grade-counts"></span></div>
+    <div id="progress-track"><div id="progress-fill"></div></div>
+    <div id="progress-sub">Roadmap order · missables flagged from the official descriptions</div>
+  </div>
+  <div id="top-actions">
+    <label id="spoiler-toggle"><input type="checkbox" id="spoiler-check"> Spoiler shield</label>
+    <button id="export-btn" type="button">Export</button>
+    <button id="import-btn" type="button">Import</button>
+    <input type="file" id="import-file" accept="application/json" hidden>
+    <div id="saved-note">✓ Saved in this browser</div>
+  </div>
+</header>
+<div id="audit-strip">
+  <span class="audit-label">AUDIT</span>
+  <span>55/55 official name, description, grade</span><i>·</i>
+  <span>1P 2G 6S 46B</span><i>·</i>
+  <span>28 PSN-hidden</span><i>·</i>
+  <span>55/55 guides cite sources</span><i>·</i>
+  <span>19 count trackers</span><i>·</i>
+  <span>roadmap + missables from the official descriptions</span><i>·</i>
+  <span>cross-checked on Exophase + PSNProfiles · 20 Nov 2026</span>
+</div>
+<nav id="view-tabs">
+  <button type="button" data-view="tracker" class="tab active">Tracker</button>
+  <button type="button" data-view="roadmap" class="tab">Roadmap</button>
+  <button type="button" data-view="missables" class="tab">Missables</button>
+  <button type="button" data-view="sources" class="tab">Sources</button>
+  <span id="tab-note">The official list has no online trophies — the Online filter proves it.</span>
+</nav>
+<main id="view-tracker" class="view">
+  <div id="chip-row">
+    <div id="filter-chips"></div>
+    <input type="search" id="search-box" placeholder="Search name, mission, place…">
+  </div>
+  <div id="tracker-grid">
+    <aside id="trophy-list-wrap">
+      <div id="list-head"><span id="shown-count"></span><span id="list-order">Roadmap order</span></div>
+      <div id="trophy-list"></div>
+    </aside>
+    <section id="guide-panel"></section>
+    <aside id="rail">
+      <div class="rail-block">
+        <h3>Next up — roadmap order</h3>
+        <div id="next-up"></div>
+      </div>
+      <div class="rail-block">
+        <h3>Roadmap progress</h3>
+        <div id="stage-progress"></div>
+      </div>
+      <div class="rail-block">
+        <h3>How to read a guide</h3>
+        <p class="rail-text">Official description first, quoted as PlayStation publishes it. Then our own words: numbered steps, each carrying its source. Missable windows and count trackers sit above the steps, where they cannot be missed.</p>
+      </div>
+    </aside>
+  </div>
+</main>
+<main id="view-roadmap" class="view" hidden></main>
+<main id="view-missables" class="view" hidden></main>
+<main id="view-sources" class="view" hidden></main>
+<footer id="colophon">Leonida Platinum Log — an unofficial, offline guide. Trophy names and descriptions © PlayStation / Rockstar Games, shown as published; every guide here is our own words. No Rockstar artwork is used.</footer>
+<script src="app.js"></script>
+</body>
+</html>
