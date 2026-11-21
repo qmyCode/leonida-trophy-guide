@@ -355,16 +355,15 @@
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
    "kind": "story",
-   "missable": true,
-   "missableNote": "Strand finale: if Andy’s strand is still open when the story ends, there may be no way back to it. Finish Andy’s strand before starting the final mission.",
+   "missable": false,
    "stage": 2,
-   "guide": "Complete the final mission for Andy — the last step of his strand. This guide flags every strand finale as missable, read from the description’s “final mission” wording: strands belong to the living world, and the safe play is to close Andy’s arc during Stage 2, well before the endgame closes the map’s story down.",
+   "guide": "Complete the final mission for Andy — the last step of his strand. Not missable: stranger strands stay open after the story ends, so Andy’s finale can be banked in Stage 2 or finished later in post-story free roam. An earlier version of this guide flagged every strand finale from the description’s “final mission” wording alone; the PowerPyx roadmap corrects that — it counts only one potentially missable trophy on the whole list, and this is not it.",
    "steps": [
     "Work Andy’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
-    "Complete the final mission for Andy before the endgame. [Official description]",
-    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+    "Complete the final mission for Andy. [Official description]",
+    "No deadline: strands persist into post-story free roam, so nothing here can lock. [2]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description and grade as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Post-story availability: [2] PowerPyx, GTA 6 Trophy Guide & Roadmap (read 21 Nov 2026). Full source list on the Sources view."
   },
   {
    "id": 23,
@@ -372,16 +371,15 @@
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
    "kind": "story",
-   "missable": true,
-   "missableNote": "Strand finale: Kenton’s arc can close with story progress. Finish Kenton’s strand before starting the final mission.",
+   "missable": false,
    "stage": 2,
-   "guide": "Complete the final mission for Kenton. Same rule as every strand finale in this guide: the description’s “final mission for Kenton” marks the end of an optional arc, so it is flagged missable and scheduled in Stage 2 rather than left to post-story cleanup, when the strand may no longer be offered.",
+   "guide": "Complete the final mission for Kenton. Not missable: the description’s “final mission for Kenton” marks the end of an optional arc, but strands remain available after the story ends — the PowerPyx roadmap counts only one potentially missable trophy on the list, and no strand finale is it. Work Kenton’s arc in Stage 2 or sweep it up in post-story free roam; either order is safe.",
    "steps": [
     "Work Kenton’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
-    "Complete the final mission for Kenton before the endgame. [Official description]",
-    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+    "Complete the final mission for Kenton. [Official description]",
+    "Available again after the story — post-story cleanup cannot lock you out of this one. [2]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description and grade as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Post-story availability: [2] PowerPyx, GTA 6 Trophy Guide & Roadmap (read 21 Nov 2026). Full source list on the Sources view."
   },
   {
    "id": 24,
@@ -389,16 +387,15 @@
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
    "kind": "story",
-   "missable": true,
-   "missableNote": "Strand finale: Billy’s arc can close with story progress. Finish Billy’s strand before starting the final mission.",
+   "missable": false,
    "stage": 2,
-   "guide": "Complete the final mission for Billy. The trophy is the closing step of Billy’s strand, which is why this guide treats it as missable: optional arcs are worked while the story is still open. Bank it in Stage 2 and the endgame holds no surprises.",
+   "guide": "Complete the final mission for Billy. The trophy is the closing step of Billy’s strand — and not a missable one: Billy’s strand does not even count toward Strangers & Freaks, and like the other strands it stays available after the story ends. Bank it in Stage 2 or in post-story free roam; the endgame holds no surprises here.",
    "steps": [
     "Work Billy’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
-    "Complete the final mission for Billy before the endgame. [Official description]",
-    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+    "Complete the final mission for Billy. [Official description]",
+    "Available again after the story, and not one of the strands that counts toward Strangers & Freaks. [2] [3]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description and grade as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Post-story availability: [2] PowerPyx, GTA 6 Trophy Guide & Roadmap; strand counting: [3] OutputLag, GTA 6 Side Missions and Strangers & Freaks List (both read 21 Nov 2026). Full source list on the Sources view."
   },
   {
    "id": 25,
@@ -406,18 +403,22 @@
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
    "kind": "story",
-   "missable": true,
-   "missableNote": "Eight stranger strands across Leonida: strands belong to the open world’s story, so complete all 8 before the final mission rather than after it.",
+   "missable": false,
+   "caution": "The risk in this set is timing, not the story’s end: one race inside Yago’s strand is a timed hourglass mission that can vanish if left sitting. Make a manual save and run it the moment it appears. [3]",
    "stage": 2,
    "count": 8,
    "countStep": 1,
-   "guide": "Complete 8 mission strands for strangers across the state of Leonida — a silver built from the same optional arcs as the named finales. Because strands are offered by the living world, this guide flags it missable and puts the whole set in Stage 2: accept every stranger strand you meet, finish all eight, and use the counter here to keep the set honest.",
+   "guide": "Complete 8 mission strands for strangers across the state of Leonida — but not every strand counts, and the game never tells you which ones do. Only four counting strands are confirmed so far: Kirk, Kyle, Yago and Pilot Pete. The method that keeps this silver honest is to watch the trophy counter before and after every strand finale and bank your eight from confirmed strands first. Nothing here is missable — strands persist after the story — but one timed mission inside Yago’s strand can expire, so treat that one as urgent. [3]",
    "steps": [
-    "Accept stranger strands as you meet them across Leonida. [Official description]",
-    "Complete 8 full mission strands. [Official description]",
-    "Bank all 8 before the final mission; the counter tracks the set. [Roadmap — from the official descriptions]"
+    "Check the counter here before and after each strand finale — only some strands advance it, and the game never says which. [3]",
+    "Kirk (Chapter 1): “Have you seen Skunk Ape?” flyers around Key Lento start the strand — call Kirk, then meet him in the evening in Pelican Valley near Thorp Adventures. Three missions, including a Mr. Mangrove hunt near Cottonmouth Lake; some trigger only at night. [3]",
+    "Kyle (Chapter 2): his flyer starts a crop-duster strand at McKittrick Farm — dust the strawberry fields, then answer his later chemical-collection call; the finale, “Buddy?”, lands in Chapter 3. [3]",
+    "Yago (Chapter 3): street races out of Salton. One race is a timed hourglass mission — manual save first and run it the moment it appears, because timed missions can vanish. [3]",
+    "Pilot Pete (Chapter 4, Jason only): call him and head to Sundown Airfield in Leonard County — five missions, dropping from the Wild Hog, Southpoint, Kelly and Leonard airfields. [3]",
+    "Do not count on Billy, Andy, Tyrone, Shirley, Moses, Yasmani or Eddie Acosta: their strands do not advance this trophy, and several end in trophies of their own. Bret, Tyrone and Pilot Pete are Jason-only, as are two of Yago’s missions; Andy is Lucia-only. [3]",
+    "The other four counting strands are still unconfirmed — verify the counter after every finale until your eight are banked. Strands otherwise persist into post-story free roam. [2] [3]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description, grade and the tracked count of 8 as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Counting strands, character locks and the counter method: [3] OutputLag, GTA 6 Side Missions and Strangers & Freaks List (read 21 Nov 2026). Post-story availability: [2] PowerPyx, GTA 6 Trophy Guide & Roadmap. Full source list on the Sources view."
   },
   {
    "id": 26,
@@ -425,16 +426,15 @@
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
    "kind": "story",
-   "missable": true,
-   "missableNote": "Strand finale: Randy’s arc can close with story progress. Finish Randy’s strand before starting the final mission.",
+   "missable": false,
    "stage": 2,
-   "guide": "Complete the final mission for Randy. A strand finale, flagged missable from the description’s wording and scheduled in Stage 2 with the other crew arcs: finish Randy’s story while the campaign is still open and this cannot be locked away from you.",
+   "guide": "Complete the final mission for Randy. A strand finale, scheduled in Stage 2 with the other crew arcs — but not missable: strands stay open once the story is done, so Randy’s finale can equally be finished in post-story free roam. The PowerPyx roadmap counts only one potentially missable trophy on the list, and it is a meditation, not a strand.",
    "steps": [
     "Work Randy’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
-    "Complete the final mission for Randy before the endgame. [Official description]",
-    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+    "Complete the final mission for Randy. [Official description]",
+    "Available again after the story — no point of no return applies to this trophy. [2]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description and grade as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Post-story availability: [2] PowerPyx, GTA 6 Trophy Guide & Roadmap (read 21 Nov 2026). Full source list on the Sources view."
   },
   {
    "id": 27,
@@ -442,16 +442,15 @@
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
    "kind": "story",
-   "missable": true,
-   "missableNote": "Strand finale: Tyrone’s arc can close with story progress. Finish Tyrone’s strand before starting the final mission.",
+   "missable": false,
    "stage": 2,
-   "guide": "Complete the final mission for Tyrone. The last of the named strand finales on the list, and the same discipline applies: it is flagged missable, worked in Stage 2, and never left for after the final mission, when the strand may have closed.",
+   "guide": "Complete the final mission for Tyrone. The last of the named strand finales on the list — and, like the rest, not missable: Tyrone’s strand (Jason-only) stays available after the story ends, and it does not count toward Strangers & Freaks either. Work it in Stage 2 or mop it up in post-story free roam.",
    "steps": [
-    "Work Tyrone’s strand missions as they appear in Stage 2. [Roadmap — from the official descriptions]",
-    "Complete the final mission for Tyrone before the endgame. [Official description]",
-    "Flagged missable from the “final mission” wording — finish the strand first. [Roadmap — from the official descriptions]"
+    "Work Tyrone’s strand missions as they appear in Stage 2 (Jason only). [3]",
+    "Complete the final mission for Tyrone. [Official description]",
+    "Available again after the story, and not one of the strands that counts toward Strangers & Freaks. [2] [3]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description and grade as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Post-story availability: [2] PowerPyx, GTA 6 Trophy Guide & Roadmap; character lock and strand counting: [3] OutputLag, GTA 6 Side Missions and Strangers & Freaks List (both read 21 Nov 2026). Full source list on the Sources view."
   },
   {
    "id": 28,
@@ -460,16 +459,25 @@
    "grade": "bronze",
    "kind": "collectibles",
    "missable": false,
+   "possiblyMissable": true,
+   "missableNote": "Disputed: the Chapter 1 balcony meditation is permanently unavailable once Chapter 1 ends, and there is no mission replay. Whether it is required for 18/18 is unconfirmed; both sourced versions are shown below. Do it in Chapter 1 either way.",
+   "dispute": {
+    "a": "GameTrek: the balcony session IS one of the 18 and is effectively required — accept it immediately, in Chapter 1.",
+    "b": "PowerPyx: unconfirmed. The balcony raises the counter by 1 but is not marked a Meditation Spot, and the final meditation may count +2 — so skipping it might still reach 18/18. Untested either way.",
+    "call": "Same move either way: accept the balcony meditation in Chapter 1. It costs a minute and removes the only real risk on this list."
+   },
    "stage": 4,
    "count": 18,
    "countStep": 1,
-   "guide": "Meditate at every spot across Leonida — 18 spots, and a collectible in all but name. The spots are fixed points in the world, so treat them like a collectible route: meditate whenever you pass one, log it in the counter here, and sweep the map region by region in Stage 4 so the last spot is never a mystery.",
+   "guide": "Meditate at every spot across Leonida — 18 meditations, but only 10 locations. Most spots count once per character: meditate at the same spot as Jason and again as Lucia and each session adds +1, which is how 10 places make 18. Both characters are playable from Chapter 2’s “Coffee Break” on. The 100% checklist needs only 15 of the 18; this trophy needs all 18 — including one Chapter 1 session that can never be repeated, which is why this is the list’s one possibly missable trophy. [1] [4]",
    "steps": [
-    "Meditate at each spot as you discover it, region by region. [Roadmap — from the official descriptions]",
-    "Reach all 18 meditation spots across Leonida. [Official description]",
-    "The count of 18 is the one the list tracks. [PSNProfiles list]"
+    "Chapter 1, the morning after “Down to Earth”: Lucia announces a meditation in Jason’s kitchen and walks to the balcony. Follow her, talk, and Accept — +1, and she teaches the breathing meditation. It is gone for good once Chapter 1 ends. [1] [4]",
+    "Track the hunt under Progress > Collections > Exploration > Meditations, and filter the map by Exploration > “Meditate Around Leonida” — unvisited spots show as purple icons when you are near one. [1]",
+    "Work the eight open-world spots with BOTH characters (8 × 2 = 16): Smooth Sand, the sandbar west of Capri (Mariana County); the Swamp dock by the lookout tower in Buckskin Swamp and Worn Stone on the Emerald River bank at Camp Moonflower (Kelly County); Red Rocks, where the train tracks cross the highway in Manifest Canyon (Kelly County); the Water Wheel at the ruined paper mill on a river south of Moreau, the Jutting Cliff tower overlooking a mine in Mount Kalaga National Park, and the Waterfall north-west of Tallaloko (Lummox County); and Seaside, the rocky outcrop east of Waning Sands (Leonard County). [1] [4]",
+    "Finish at Ascent Mountain: the stone circle at Mount Kalaga’s peak is marked on the map only once all the others are done — that single meditation is the 18th. [4]",
+    "Efficient order: the Kelly County trio together, then the Lummox County trio, Ascent Mountain last. Log every session in the counter here — per character, not per place. [4]"
    ],
-   "sources": "PlayStation official trophy list — name, description and grade as published, cross-checked on the Exophase and PSNProfiles GTA VI trophy lists (read 20 Nov 2026). Roadmap stage and missable flag are read from the official description; method on the Sources view."
+   "sources": "PlayStation official trophy list — name, description, grade and the tracked count of 18 as published, via the Exophase GTA VI trophy list (read 21 Nov 2026). Spot locations and per-character counting: [1] PowerPyx, GTA 6 All Meditation Spot Locations, and [4] GameTrek, All Meditation Spot Locations (both read 21 Nov 2026). The balcony dispute is shown in full below; full source list on the Sources view."
   },
   {
    "id": 29,
