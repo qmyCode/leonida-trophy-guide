@@ -122,12 +122,6 @@ body {
 .pchip strong { color: var(--ink); }
 .missable-box { background: var(--coral-soft); border: 1px solid #f0bda6; border-left: 4px solid var(--coral); border-radius: 6px; padding: 7px 10px; font-size: 12.5px; margin: 8px 0; }
 .missable-box strong { color: #a03412; }
-.caution-box { background: #fff7ea; border: 1px solid #ecd28f; border-left: 4px solid var(--gold); border-radius: 6px; padding: 7px 10px; font-size: 12.5px; margin: 8px 0; }
-.caution-box strong { color: #7a5b00; }
-.dispute-box { background: var(--gold-soft); border: 1px solid #e3cf8f; border-left: 4px solid var(--gold); border-radius: 6px; padding: 7px 10px; font-size: 12.5px; margin: 8px 0; }
-.dispute-box > strong { color: #7a5b00; letter-spacing: 0.4px; }
-.dispute-box p { margin: 4px 0 0; }
-.dispute-box p strong { color: #7a5b00; }
 .count-box { display: flex; align-items: center; gap: 10px; background: #eef6f1; border: 1px solid #bfe0d2; border-radius: 6px; padding: 7px 10px; margin: 8px 0; }
 .count-box .count-label { font-size: 11px; font-weight: 800; letter-spacing: 1px; color: #0f5a4e; }
 .count-box .count-value { font-size: 17px; font-weight: 800; color: var(--ink); font-variant-numeric: tabular-nums; }
@@ -139,7 +133,6 @@ ol.steps { margin: 4px 0 8px; padding-left: 21px; }
 ol.steps li { margin: 4px 0; font-size: 13px; }
 ol.steps .src-tag { font-size: 10.5px; color: #0f5a4e; background: #e8f3ee; border-radius: 4px; padding: 0 5px; white-space: nowrap; }
 .sources-block { background: var(--paper-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; font-size: 12px; }
-.panel-sources { margin: 8px 0; }
 .sources-block .sources-label { font-size: 10.5px; letter-spacing: 1.2px; font-weight: 800; color: #57492e; }
 .spoiler-mask { color: #9a8f78; font-style: italic; }
 /* ---------- rail ---------- */

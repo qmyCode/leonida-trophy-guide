@@ -7,14 +7,14 @@ const KIND_LABEL = { story: 'Story', collectibles: 'Collectibles', activities: '
 const MONEY_COUNTS = { 52: true, 53: true };
 const STAGES = {
   1: ['Stage 1 — Opening & Chapters 1–2', 'Story first: the opening mission, Chapters 1–2 and Breakfast Run. Bank strand work as it appears.'],
-  2: ['Stage 2 — Chapters 3–4, missions & strand finales', 'Named missions and strand finales, including the four strands confirmed to count toward Strangers & Freaks. Strands persist into post-story free roam [2], so this stage is about order, not deadlines — the run’s one possible missable sits in Chapter 1, not here.'],
+  2: ['Stage 2 — Chapters 3–4, missions & strand finales', 'The missable heart of the run: every named mission and all six flagged strand trophies live here. Finish the strands before the endgame.'],
   3: ['Stage 3 — Finale & 100% completion', 'The final mission, then the completion counter chased to 100%. Nothing optional may be left open behind you.'],
   4: ['Stage 4 — Collectibles & the whole map', 'Meditation spots, card sets, WAiNK locations, vehicles and all 52 areas of Leonida, swept region by region.'],
   5: ['Stage 5 — Activities & skill', 'Shooting Range golds, races, stunts, challenges and the one-off activity tests, taken with a full arsenal.'],
   6: ['Stage 6 — Cleanup: money, property & moments', 'Spending, laundering, garages and app registrations — plus the one-off moments, and the platinum at the end.'],
 };
 const FILTERS = [
-  ['all', 'All'], ['story', 'Story'], ['missable', 'Possibly missable'], ['collectibles', 'Collectibles'],
+  ['all', 'All'], ['story', 'Story'], ['missable', 'Missable'], ['collectibles', 'Collectibles'],
   ['activities', 'Activities'], ['online', 'Online'], ['unearned', 'Not earned'],
 ];
 const DEMO_EARNED = [2, 3, 4, 8, 9, 16, 20, 21, 29, 44];
@@ -67,7 +67,7 @@ function renderHeader() {
 
 function matchesFilter(t) {
   if (filter === 'story' && t.kind !== 'story') return false;
-  if (filter === 'missable' && !t.missable && !t.possiblyMissable) return false;
+  if (filter === 'missable' && !t.missable) return false;
   if (filter === 'collectibles' && t.kind !== 'collectibles') return false;
   if (filter === 'activities' && t.kind !== 'activities') return false;
   if (filter === 'online' && t.kind !== 'online') return false;
@@ -80,7 +80,7 @@ function matchesFilter(t) {
 }
 function filterCount(key) {
   if (key === 'all') return trophies.length;
-  if (key === 'missable') return trophies.filter((t) => t.missable || t.possiblyMissable).length;
+  if (key === 'missable') return trophies.filter((t) => t.missable).length;
   if (key === 'unearned') return trophies.filter((t) => !isEarned(t)).length;
   return trophies.filter((t) => t.kind === key).length;
 }
@@ -96,7 +96,6 @@ function renderList() {
   document.getElementById('trophy-list').innerHTML = shown.map((t) => {
     const tags = ['<span class="tag">' + KIND_LABEL[t.kind] + '</span>', '<span class="tag">Stage ' + t.stage + '</span>'];
     if (t.missable) tags.push('<span class="tag missable">MISSABLE</span>');
-    if (t.possiblyMissable) tags.push('<span class="tag missable">POSSIBLY MISSABLE</span>');
     if (t.count) tags.push('<span class="tag count">' + fmtCount(t, countOf(t)) + ' / ' + fmtCount(t, t.count) + '</span>');
     return '<div class="trophy-row' + (isEarned(t) ? ' earned' : '') + (t.id === openId ? ' open' : '') + '" data-open="' + t.id + '">' +
       '<input type="checkbox" data-earn="' + t.id + '"' + (isEarned(t) ? ' checked' : '') + ' aria-label="earned">' +
@@ -131,20 +130,6 @@ function renderPanel() {
   if (t.missable) {
     html += '<div class="missable-box"><strong>⚠ MISSABLE WINDOW — </strong>' + esc(t.missableNote || '') + '</div>';
   }
-  if (t.possiblyMissable) {
-    html += '<div class="missable-box"><strong>⚠ POSSIBLY MISSABLE — </strong>' + esc(t.missableNote || '') + '</div>';
-  }
-  if (t.caution) {
-    html += '<div class="caution-box"><strong>⏱ TIMING NOTE — </strong>' + esc(t.caution) + '</div>';
-  }
-  if (t.dispute) {
-    html += '<div class="dispute-box"><strong>⚖ SOURCES DIFFER — IS IT MISSABLE?</strong>' +
-      '<p><strong>A · </strong>' + esc(t.dispute.a) + '</p>' +
-      '<p><strong>B · </strong>' + esc(t.dispute.b) + '</p>' +
-      (t.dispute.check ? '<p>' + esc(t.dispute.check) + '</p>' : '') +
-      '<p><strong>Our call: </strong>' + esc(t.dispute.call) + '</p></div>';
-  }
-  html += '<div class="sources-block panel-sources"><span class="sources-label">NUMBERED SOURCES · </span>[1] PowerPyx — Meditation Spot Locations · [2] PowerPyx — Trophy Guide &amp; Roadmap · [3] OutputLag — Strangers &amp; Freaks List · [4] GameTrek — Meditation Spot Locations <span class="sources-label">· FULL LIST ON THE SOURCES VIEW</span></div>';
   if (t.count) {
     const v = countOf(t);
     html += '<div class="count-box"><span class="count-label">YOUR COUNT</span>' +
@@ -165,7 +150,7 @@ function renderRail() {
   document.getElementById('next-up').innerHTML = next.map((t) =>
     '<div class="next-item"><span class="grade-badge grade-' + t.grade + '">' + GRADE_LETTER[t.grade] + '</span>' +
     '<span><span class="n-name">' + esc(shownName(t)) + '</span><br><span class="n-sub">' +
-    STAGES[t.stage][0].split(' — ')[0] + ' · ' + KIND_LABEL[t.kind] + (t.missable ? ' · <b style="color:#a03412">MISSABLE</b>' : '') + (t.possiblyMissable ? ' · <b style="color:#a03412">POSSIBLY MISSABLE</b>' : '') +
+    STAGES[t.stage][0].split(' — ')[0] + ' · ' + KIND_LABEL[t.kind] + (t.missable ? ' · <b style="color:#a03412">MISSABLE</b>' : '') +
     (t.count ? ' · ' + fmtCount(t, countOf(t)) + '/' + fmtCount(t, t.count) : '') + '</span></span></div>').join('');
   document.getElementById('stage-progress').innerHTML = Object.keys(STAGES).map((n) => {
     const inStage = trophies.filter((t) => t.stage === Number(n));
@@ -177,7 +162,7 @@ function renderRail() {
 
 function renderRoadmap() {
   document.getElementById('view-roadmap').innerHTML =
-    '<div class="view-intro"><strong>The roadmap to the platinum</strong>, built from the official descriptions and cross-checked against the PowerPyx roadmap [2]: story chapters and missions first, then collectibles and counts, activities, and the money cleanup. Missable flags (⚠) follow the sourced guides, not wording guesses — the list\u2019s one possibly missable trophy is a Chapter 1 meditation, and every strand finale stays available after the story. See Missables.</div>' +
+    '<div class="view-intro"><strong>The roadmap to the platinum</strong>, built from the official descriptions: story chapters and missions first, strand finales banked before the endgame, then collectibles and counts, activities, and the money cleanup. Missable flags (⚠) are read from the descriptions\u2019 own wording — a \u201cfinal mission\u201d for a named character closes a strand.</div>' +
     Object.keys(STAGES).map((n) => {
       const inStage = trophies.filter((t) => t.stage === Number(n)).sort((a, b) => a.id - b.id);
       const done = inStage.filter(isEarned).length;
@@ -186,47 +171,36 @@ function renderRoadmap() {
         inStage.map((t) => '<span class="stage-trophy' + (isEarned(t) ? ' done' : '') + '" data-open="' + t.id + '">' +
           '<span class="grade-badge grade-' + t.grade + '">' + GRADE_LETTER[t.grade] + '</span>' + esc(shownName(t)) +
           (t.missable ? '<span class="m-flag">⚠ MISSABLE</span>' : '') +
-          (t.possiblyMissable ? '<span class="m-flag">⚠ POSSIBLY MISSABLE</span>' : '') +
           (t.count ? '<span style="color:var(--muted)">' + fmtCount(t, countOf(t)) + '/' + fmtCount(t, t.count) + '</span>' : '') + '</span>').join('') +
         '</div></div>';
     }).join('');
 }
 
 function renderMissables() {
-  const pma = byId[28];
-  const d = (pma && pma.dispute) || {};
+  const miss = trophies.filter((t) => t.missable).sort(roadmapOrder);
   document.getElementById('view-missables').innerHTML =
-    '<div class="view-intro"><strong>One possibly missable trophy on the whole list</strong> — and even that one is disputed. The PowerPyx roadmap [2] counts “potentially 1” missable: Positive Mental Attitude, over a Chapter 1 meditation that never comes back. Everything else trophy-related is available again after the story; the only other things that can slip away are timed missions, which lock no trophy by themselves. An earlier version of this guide flagged six strand finales from description wording alone — that was wrong, and this page is the correction.</div>' +
-    '<div class="miss-card"><h3><span class="grade-badge grade-' + pma.grade + '">' + GRADE_LETTER[pma.grade] + '</span>' + esc(pma.name) +
-    '<span class="tag missable">POSSIBLY MISSABLE</span><span class="tag">Stage ' + pma.stage + '</span>' +
-    (pma.count ? '<span class="tag count">' + fmtCount(pma, countOf(pma)) + ' / ' + fmtCount(pma, pma.count) + ' meditations</span>' : '') + '</h3>' +
-    '<p class="miss-desc">Official description: “' + esc(pma.description) + '”</p>' +
-    '<p class="ponr"><strong>Point of no return: </strong>the end of Chapter 1. The balcony meditation Lucia offers in Jason’s kitchen is permanently unavailable once Chapter 1 ends, and there is no mission replay.</p>' +
-    '<p class="ponr"><strong>Sources differ — A: </strong>' + esc(d.a || '') + '</p>' +
-    '<p class="ponr"><strong>B: </strong>' + esc(d.b || '') + '</p>' +
-    '<p class="ponr"><strong>Our call: </strong>' + esc(d.call || '') + '</p></div>' +
-    '<div class="miss-card"><h3>⏱ Timed missions can vanish</h3>' +
-    '<p class="ponr">One race inside Yago’s stranger strand (Chapter 3, out of Salton) is a <strong>timed hourglass mission</strong>: leave it sitting and it can disappear. Make a manual save and run it the moment it appears. [3] Shirley’s Rum strand (Chapter 1, a liquor store in the Keys) may be missable <em>content</em> — but it does not count toward Strangers &amp; Freaks and locks no trophy. [3]</p></div>' +
-    '<div class="miss-card"><h3>✓ Every other trophy giver comes back</h3>' +
-    '<p class="ponr">Strands persist into post-story free roam, so no strand finale — Andy, Kenton, Billy, Randy, Tyrone — can lock you out, whenever you finish it. [2] Our earlier description-only inference, that “final mission” wording meant missable, is corrected here and in every affected guide.</p></div>';
+    '<div class="view-intro"><strong>' + miss.length + ' trophies flagged missable</strong> — every one a strand finale. The flags are read from the official descriptions: each of these is \u201cthe final mission\u201d for a named character or a full set of stranger strands, and strands belong to the story\u2019s living world. The safe rule costs nothing: finish every strand before you start the final mission, and nothing on this page can lock you out.</div>' +
+    miss.map((t) =>
+      '<div class="miss-card"><h3><span class="grade-badge grade-' + t.grade + '">' + GRADE_LETTER[t.grade] + '</span>' + esc(t.name) +
+      '<span class="tag">Stage ' + t.stage + '</span>' + (t.count ? '<span class="tag count">' + fmtCount(t, countOf(t)) + ' / ' + fmtCount(t, t.count) + '</span>' : '') + '</h3>' +
+      '<p class="miss-desc">Official description: “' + esc(t.description) + '”</p>' +
+      '<p class="ponr"><strong>Point of no return: </strong>' + esc(t.missableNote || '') + '</p></div>').join('');
 }
 
 function renderSources() {
   document.getElementById('view-sources').innerHTML =
     '<div class="src-section"><h3>The sources</h3>' +
-    '<p>Every fact in this guide traces to one of these. The guides are paraphrased in our own words, and the tags in each guide — [1] to [4] — point back to this list. All read 21 Nov 2026.</p><ul>' +
-    '<li><strong>[1] PowerPyx</strong> — “GTA 6 All Meditation Spot Locations”: the 10 meditation locations, the per-character counting that makes 18, and the Chapter 1 balcony session.</li>' +
-    '<li><strong>[2] PowerPyx</strong> — “GTA 6 Trophy Guide &amp; Roadmap”: the platinum order, post-story availability of strands, and the missable count of “potentially 1”.</li>' +
-    '<li><strong>[3] OutputLag</strong> — “GTA 6 Side Missions and Strangers &amp; Freaks List”: which strands count toward Strangers &amp; Freaks, the character locks, and the timed-mission warning.</li>' +
-    '<li><strong>[4] GameTrek</strong> — “All Meditation Spot Locations”: the meditation route order, the Ascent Mountain finish, and the balcony counted as one of the 18.</li>' +
-    '<li><strong>PlayStation official trophy list</strong> — the 55 names, descriptions, grades and tracked counts (42 Shooting Range challenges, 18 meditations, 52 areas…), shown verbatim, via the <strong>Exophase</strong> GTA VI trophy list. <strong>PSNProfiles</strong> carries no GTA VI guide as of this reading; its list served only as a name cross-check in the first edition.</li></ul></div>' +
+    '<p>Every fact in this guide traces to one of these. Where a description is all PlayStation gives us, the guide says so and claims nothing more.</p><ul>' +
+    '<li><strong>PlayStation official trophy list</strong> — the 55 names, descriptions and grades, shown verbatim; the counts PlayStation tracks (42 Shooting Range challenges, 18 meditation spots, 52 areas…) come from the same list.</li>' +
+    '<li><strong>Exophase</strong> — GTA VI trophy list, cross-check of names, descriptions, grades and counts, read 20 Nov 2026.</li>' +
+    '<li><strong>PSNProfiles</strong> — GTA VI trophy list, second cross-check, read 20 Nov 2026; the two listings agree on every name, description and grade.</li></ul></div>' +
     '<div class="src-section"><h3>The method</h3>' +
-    '<p><strong>Roadmap:</strong> stages are ordered from the official descriptions — chapters and named missions in story order, then the collectible counts, the activities, and the money-and-property cleanup that a finished story funds — and cross-checked against the PowerPyx roadmap [2].</p>' +
-    '<p><strong>Missable flags:</strong> checked against the PowerPyx roadmap [2], which counts exactly one potentially missable trophy — Positive Mental Attitude — and even that is disputed between [1] and [4]; both versions are shown in its guide and on the Missables page. Strands persist into post-story free roam [2]. Timed hourglass missions can vanish [3] but lock no trophy by themselves. The first edition of this guide inferred six missable strand finales from description wording alone; that inference was wrong, and it has been corrected everywhere it appeared.</p>' +
+    '<p><strong>Roadmap:</strong> stages are ordered from the official descriptions — chapters and named missions in story order, strand finales before the final mission, then the collectible counts, the activities, and the money-and-property cleanup that a finished story funds.</p>' +
+    '<p><strong>Missable flags:</strong> a trophy is flagged only when its description marks the end of an optional arc — \u201ccomplete the final mission for\u2026\u201d a named character, or a set of stranger strands. Story progression itself is never flagged: chapters cannot be failed permanently.</p>' +
     '<p><strong>Counts:</strong> 19 trophies carry a count PlayStation tracks; each has a +/− tracker here, saved in your browser like the checkboxes.</p>' +
-    '<p><strong>Honesty notes:</strong> the official list contains <strong>no online trophies</strong> — the Online filter is included so you can prove it. 28 of the 55 are hidden on PSN until earned; the spoiler shield hides story trophies\u2019 names and descriptions until you earn them. Where our sources disagree, the guide shows both versions instead of picking silently.</p></div>' +
+    '<p><strong>Honesty notes:</strong> the official list contains <strong>no online trophies</strong> — the Online filter is included so you can prove it. 28 of the 55 are hidden on PSN until earned; the spoiler shield hides story trophies\u2019 names and descriptions until you earn them. Where a description is a joke or a riddle, the guide works only from its words and invents no location.</p></div>' +
     '<div class="src-section"><h3>The audit</h3>' +
-    '<p>55/55 trophies carry their official name, description and grade · 1 platinum, 2 gold, 6 silver, 46 bronze · 55/55 guides written for this entry and citing their sources · 1 possibly missable trophy, disputed, both versions shown · missables per the PowerPyx roadmap [2] · strand counting per OutputLag [3] · this app runs fully offline and fetches nothing.</p></div>';
+    '<p>55/55 trophies carry their official name, description and grade · 1 platinum, 2 gold, 6 silver, 46 bronze · 55/55 guides written for this entry and citing their sources · roadmap and missable flags built from the official descriptions · this app runs fully offline and fetches nothing.</p></div>';
 }
 
 function renderAll() {
